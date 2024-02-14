@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    width: 50rem;
+    height: 50rem;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+
+
+}
+
+h1 {
+    color: #7d2ae8;
+    font-size: 4rem;
+}
+
+
+
+.game img {
+    width: 5.0rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.div1 img {
+    width: 10rem;
+    height: 14rem;
+}
+
+.img1 {
+    transform: rotate(90deg);
+
+}
+
+.img2 {
+    transform: rotate(-90deg) rotateY(180deg);
+}
+
+p {
+    color: #7d2ae8;
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+.img_animation1 {
+
+    /* Adjust as needed */
+    animation: sample1 0.4s ease-in-out infinite alternate;
+}
+
+.img_animation2 {
+
+    /* Adjust as needed */
+    animation: sample2 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes sample1 {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(98deg);
+    }
+}
+
+@keyframes sample2 {
+    0% {
+        transform: rotate(-90deg) rotateY(180deg);
+    }
+
+    100% {
+        transform: rotate(-98deg) rotateY(180deg);
+    }
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+@media only screen and (max-width: 567px) {
+    html {
+        font-size: 25%;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    html {
+        font-size: 45%;
+    }
+
+}
+
+@media only screen and (min-width: 1201px) {
+    html {
+        font-size: 50%;
+    }
+
+}

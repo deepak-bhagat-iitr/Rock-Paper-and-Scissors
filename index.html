@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="row m-0 p-0">
+    <div class="m-auto  container rounded-4 m-0 ">
+
+        <div class="row h-100 m-0 p-2">
+            <div class="div1 w-75 mx-auto mt-4 mb-3 px-4 row justify-content-between">
+
+
+                <img class="img1 my-auto  p-0" src="rock.png" alt="Rock">
+
+
+                <img class="img2 my-auto  col-1 p-0" src="rock.png" alt="Rock">
+
+
+            </div>
+            <div class="row m-0 p-0">
+                <h1 class=" text-center my-auto mb-5 mt-4 mx-0 py-auto">Let's Play!!</h1>
+            </div>
+            <div class="row game p-0">
+                <div class="row offset-1  col-3 p-0">
+                    <img class="rock m-auto p-0 m-0" onclick="play('rock')" src="rock.png" alt="Rock">
+                    <p class="rock mt-3 text-center p-0" onclick="play('rock')">Rock</p>
+                </div>
+                <div class="row offset-1 col-3 p-0">
+                    <img class="paper m-auto p-0 m-0 " onclick="play('paper')" src="paper.png" alt="Paper">
+                    <p class="paper mt-3 text-center p-0" onclick="play('paper')">Paper</p>
+                </div>
+                <div class="row offset-1  col-3 p-0">
+                    <img class="scissors m-auto p-0 m-0" onclick="play('scissors')" src="scissors.png" alt="Scissors">
+                    <p class="scissors p-0 mt-3 text-center" onclick="play('scissors')">Scissors</p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
